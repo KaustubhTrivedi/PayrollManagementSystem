@@ -7,8 +7,14 @@
   <title>Salary</title>
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/salary.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
 </head>
 
 <body>
@@ -20,7 +26,7 @@
         <i class="fas fa-bars" id="sidebar_btn"></i>
       </label>-->
     <div class="left_area">
-      <h3>PAYROLL <span>MANAGEMENT</span></h3>
+      <h3>PAYROLL MANAGEMENT</h3>
     </div>
     <div class="right_area">
       <a href="#" class="logout_btn">Logout</a>
@@ -42,6 +48,7 @@
     </div>
   </div>
   <!--mobile navigation bar end-->
+
   <!--sidebar start-->
   <div class="sidebar">
     <div class="profile_info">
@@ -56,43 +63,44 @@
   <!--sidebar end-->
 
   <!--Salary -->
+  <h1  class="heading" >Generate Salary</h1>
   <form action="salary_add.php" method="$_POST">
-    <h1 style="margin: 40px;">Generate Salary</h1>
-    <tr>
-      <td>Employee Id :&ensp;</td>
-      <td><input type="text" name="EmployeeId" maxlength="10"></td>
-    </tr>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    <tr>
-      <td>First Name :&emsp;</td>
-      <td><input type="text" name="FirstName" maxlength="50"></td><br>
-    </tr>
-    <br>
-    <tr>
-      <td>Last Name :&emsp;</td>
-      <td><input type="text" name="LastName" maxlength="50"></td>
-    </tr>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    <tr>
-      <td> Bank Name :&emsp;</td>
-      <td><input type="text" name="BankName " maxlength="50"></td><br>
-    </tr>
-    <br>
-    <tr>
-      <td>Account no.:&emsp;</td>
-      <td><input type="text" name="Accountno" maxlength="50"></td><br>
-    </tr>
-    <br><br>
+    
+        
+         <tr>
+           <td>Employee Id :&ensp;</td>
+           <td><input type="text" name="EmployeeId" maxlength="10"></td>
+         </tr>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <tr>
+            <td>First Name :&emsp;</td>
+            <td><input type="text" name="FirstName" maxlength="50"></td><br>
+         </tr>
+           <br>
+          <tr>
+            <td>Last Name :&emsp;</td>
+            <td><input type="text" name="LastName" maxlength="50"></td>
+          </tr>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <tr>
+             <td> Bank Name :&emsp;</td>
+             <td><input type="text" name="BankName " maxlength="50"></td><br>
+          </tr>
+           <br>
+          <tr>
+             <td>Account no.:&emsp;</td>
+             <td><input type="text" name="Accountno" maxlength="50"></td><br>
+          </tr>
+           <br><br>
+</form>    
 
-    <div class="row">
-      <div class="column" style="background-color:#D0D0D0;">
-        <center>
-
-          <table>
+  <div class="row">
+    <div class="col-sm1" style="Background-color:#B0B0B0;">
+    <table> 
             <th>
               <h2>Earnings</h2>
             </th>
             <tr>
               <td> Base Salary :</td>
-              <td><input type="text" name="Basesalary " maxlength="10"></td><br>
+              <td><input type="text" name="Basesalary " maxlength="10"></td>
             </tr>
             <tr>
               <td> Conveyance :</td>
@@ -108,13 +116,9 @@
             </tr>
 
           </table>
-        </center>
-      </div>
-
-      <div class="column" style="background-color:#BEBEBE;">
-        <center>
-
-          <table>
+    </div>
+    <div class="col-sm2" style="Background-color:#C0C0C0;">
+    <table>
             <th>
               <h2>Deduction</h2>
             </th>
@@ -128,20 +132,22 @@
             </tr>
             <tr>
               <td> Income Tax :</td>
-              <td><input type="text" name="Incometax " maxlength="10"></td><br>
+              <td><input type="text" name="Incometax " maxlength="10"></td><br><br>
             </tr>
-
-          </table>
-        </center>
-      </div>
-      <center>
-        <input type="submit" value="Generate Salary Slip">
-      </center>
+          
+    </table>
+          <input class="btn btn-primary float-right" type="submit" value="Generate Slip">
     </div>
+   
+  </div>
+ 
+</div>
 
-  </form>
 
   <!--Salary end-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
     $(document).ready(function() {
