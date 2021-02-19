@@ -7,6 +7,7 @@
   <title>Add Employee</title>
   <!--<link rel="stylesheet" href="index.css">-->
   <link rel="stylesheet" href="assets/css/add_emp.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 </head>

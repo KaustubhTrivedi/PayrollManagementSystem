@@ -7,7 +7,7 @@
   <title>Salary</title>
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="assets/css/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/" <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 </head>
 
@@ -135,7 +135,7 @@
         </center>
       </div>
       <center>
-        <input type="submit" value="Generate Salary Slip">
+        <input class="btn btn-primary" type="submit" value="Generate Salary Slip">
       </center>
     </div>
 
