@@ -7,8 +7,12 @@
   <title>Salary</title>
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="assets/css/index.css">
+<<<<<<< HEAD
   <link rel="stylesheet" href="assets/css/salary.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+=======
+  <link rel="stylesheet" href="node_modules/bootstrap/" <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+>>>>>>> acb6af21aa3d7138edcbdbe74bca6d5e45e34502
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -134,9 +138,19 @@
               <td> Income Tax :</td>
               <td><input type="text" name="Incometax " maxlength="10"></td><br><br>
             </tr>
+<<<<<<< HEAD
           
     </table>
           <input class="btn btn-primary float-right" type="submit" value="Generate Slip">
+=======
+
+          </table>
+        </center>
+      </div>
+      <center>
+        <input class="btn btn-primary" type="submit" value="Generate Salary Slip">
+      </center>
+>>>>>>> acb6af21aa3d7138edcbdbe74bca6d5e45e34502
     </div>
    
   </div>
