@@ -56,7 +56,7 @@
   <!--sidebar end-->
 
   <!--Salary -->
-  <form action="salary_add.php" method="$_POST">
+  <form action="assets/backend/salary_add.php" method="$_POST">
     <h1 style="margin: 40px;">Generate Salary</h1>
     <tr>
       <td>Employee Id :&ensp;</td>
@@ -85,8 +85,7 @@
     <div class="row">
       <div class="column" style="background-color:#D0D0D0;">
         <center>
-
-          <table>
+          <table align="center">
             <th>
               <h2>Earnings</h2>
             </th>
@@ -135,7 +134,7 @@
         </center>
       </div>
       <center>
-        <input class="btn btn-primary" type="submit" value="Generate Salary Slip">
+        <input class="btn btn-primary btn" type="submit" value="Generate Salary Slip">
       </center>
     </div>
 
