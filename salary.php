@@ -65,10 +65,10 @@
   <!--sidebar end-->
 
   <!--Salary -->
-  <h1 class="heading">Generate Salary</h1>
-  <form action="salary_add.php" method="$_POST">
 
-
+=======
+  <form action="assets/backend/salary_add.php" method="$_POST">
+    <h1 style="margin: 40px;">Generate Salary</h1>
     <tr>
       <td>Employee Id :&ensp;</td>
       <td><input type="text" name="EmployeeId" maxlength="10"></td>
@@ -94,53 +94,61 @@
     <br><br>
   </form>
 
-  <div class="row">
-    <div class="col-sm1" style="Background-color:#B0B0B0;">
-      <table>
-        <th>
-          <h2>Earnings</h2>
-        </th>
-        <tr>
-          <td> Base Salary :</td>
-          <td><input type="text" name="Basesalary " maxlength="10"></td>
-        </tr>
-        <tr>
-          <td> Conveyance :</td>
-          <td><input type="text" name="Conveyance " maxlength="10"></td><br>
-        </tr>
-        <tr>
-          <td> Special allowance :</td>
-          <td><input type="text" name="Specialallowance " maxlength="10"></td><br>
-        </tr>
-        <tr>
-          <td> Overtime :</td>
-          <td><input type="text" name="Overtime " maxlength="10"></td><br>
-        </tr>
 
-      </table>
-    </div>
-    <div class="col-sm2" style="Background-color:#C0C0C0;">
-      <table>
-        <th>
-          <h2>Deduction</h2>
-        </th>
-        <tr>
-          <td> Leave :</td>
-          <td><input type="text" name="Leave " maxlength="10"></td><br>
-        </tr>
-        <tr>
-          <td> Providend Fund :</td>
-          <td><input type="text" name="Providendfund " maxlength="10"></td><br>
-        </tr>
-        <tr>
-          <td> Income Tax :</td>
-          <td><input type="text" name="Incometax " maxlength="10"></td><br><br>
-        </tr>
-        <<<<<<< HEAD </table>
-          <input class="btn btn-primary float-right" type="submit" value="Generate Slip">
-          =======
+=======
+    <div class="row">
+      <div class="column" style="background-color:#D0D0D0;">
+        <center>
+          <table align="center">
+            <th>
+              <h2>Earnings</h2>
+            </th>
+            <tr>
+              <td> Base Salary :</td>
+              <td><input type="text" name="Basesalary " maxlength="10"></td><br>
+            </tr>
+            <tr>
+              <td> Conveyance :</td>
+              <td><input type="text" name="Conveyance " maxlength="10"></td><br>
+            </tr>
+            <tr>
+              <td> Special allowance :</td>
+              <td><input type="text" name="Specialallowance " maxlength="10"></td><br>
+            </tr>
+            <tr>
+              <td> Overtime :</td>
+              <td><input type="text" name="Overtime " maxlength="10"></td><br>
+            </tr>
 
-      </table>
+          </table>
+        </center>
+      </div>
+
+      <div class="column" style="background-color:#BEBEBE;">
+        <center>
+
+          <table>
+            <th>
+              <h2>Deduction</h2>
+            </th>
+            <tr>
+              <td> Leave :</td>
+              <td><input type="text" name="Leave " maxlength="10"></td><br>
+            </tr>
+            <tr>
+              <td> Providend Fund :</td>
+              <td><input type="text" name="Providendfund " maxlength="10"></td><br>
+            </tr>
+            <tr>
+              <td> Income Tax :</td>
+              <td><input type="text" name="Incometax " maxlength="10"></td><br>
+            </tr>
+
+          </table>
+        </center>
+      </div>
+      <center>
+        <input class="btn btn-primary btn" type="submit" value="Generate Salary Slip">
       </center>
     </div>
   </div>
