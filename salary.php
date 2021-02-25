@@ -7,8 +7,16 @@
   <title>Salary</title>
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="assets/css/index.css">
-  <link rel="stylesheet" href="node_modules/bootstrap/" <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/salary.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -20,7 +28,7 @@
         <i class="fas fa-bars" id="sidebar_btn"></i>
       </label>-->
     <div class="left_area">
-      <h3>PAYROLL <span>MANAGEMENT</span></h3>
+      <h3>PAYROLL MANAGEMENT</h3>
     </div>
     <div class="right_area">
       <a href="#" class="logout_btn">Logout</a>
@@ -42,6 +50,7 @@
     </div>
   </div>
   <!--mobile navigation bar end-->
+
   <!--sidebar start-->
   <div class="sidebar">
     <div class="profile_info">
@@ -56,6 +65,8 @@
   <!--sidebar end-->
 
   <!--Salary -->
+
+=======
   <form action="assets/backend/salary_add.php" method="$_POST">
     <h1 style="margin: 40px;">Generate Salary</h1>
     <tr>
@@ -81,7 +92,10 @@
       <td><input type="text" name="Accountno" maxlength="50"></td><br>
     </tr>
     <br><br>
+  </form>
 
+
+=======
     <div class="row">
       <div class="column" style="background-color:#D0D0D0;">
         <center>
@@ -137,10 +151,17 @@
         <input class="btn btn-primary btn" type="submit" value="Generate Salary Slip">
       </center>
     </div>
+  </div>
 
-  </form>
+  </div>
+
+  </div>
+
 
   <!--Salary end-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
     $(document).ready(function() {
